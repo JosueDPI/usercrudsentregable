@@ -4,7 +4,7 @@ import useUserCrud from './hooks/useUserCrud'
 import UserCard from './components/UserCard'
 import FormUser from './components/FormUser'
 import { useForm } from 'react-hook-form'
-import AlertModal from './components/alertModal'
+import AlertModal from './components/AlertModal'
 
 function App() {
   const [updateInfo, setUpdateInfo] = useState()
