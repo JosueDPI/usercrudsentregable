@@ -1,0 +1,83 @@
+.user{
+    border: 0.05em solid #aaa7;
+    width: 100%;
+    max-width: 320px;
+    border-radius: 0.4em;
+    padding: 1.5em 1em;
+    transition: transform 200ms;
+    background-color: white;
+    box-shadow: 0 0.05em 0.05em rgba(0.1, 0.1, 0.1, 0.1);
+   
+}
+.user:hover{
+    transform: scale(1.03)
+}
+
+
+.user__name {
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-bottom: 1em;
+    text-transform: capitalize;
+}
+
+.user__list {
+    display: grid;
+    gap: 0.8em;
+    margin-bottom: 1em;
+    /* background-color: red; */
+}
+
+.user__item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25em;
+    
+}
+
+.user__label {
+    font-size: 0.7rem;
+    color: #aaa;
+    text-transform: uppercase;
+    position: relative;
+    left: 1.3em;
+}
+
+.user__value {
+    width: 100%;
+    font-size: 0.8rem;
+    font-weight: 400;
+    overflow: hidden;
+}
+
+.user__footer {
+    display: flex;
+    justify-content: end;
+    gap: 1em;
+}
+
+.user__btn{
+    width: 2.5em;
+    aspect-ratio: 1;
+    border-radius: 0.4em;
+    background-color: rgba(189, 189, 189, 1);
+    transition: transform 200ms ease, box-shadow 200ms ease;
+}
+
+.user__btn:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 0.3em #0005;
+
+}
+
+.user__delete {
+    color: white;
+    background-color: #d93f3f;
+}
+
+.user__icon {
+    font-size:1.2rem;
+    color:rgb(133, 104, 120);
+    /* background-color: red; */
+}
+
