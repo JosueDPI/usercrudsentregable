@@ -40,7 +40,7 @@ const AlertModal = ({deleteUserById,
             <div>Do you really want to <b>delete</b>  this User?</div>
             <div className='warning__user'>{updateInfo?.first_name} {updateInfo?.last_name} </div>
             <div className="button__container">
-                <button onClick={handleWarningYes} className='warning__btn warning__btn-yes'>Really, really</button>
+                <button onClick={handleWarningYes} className='warning__btn warning__btn-yes'>Are you sure?</button>
                 <button onClick={handleWarningCancel} className='warning__btn'>Cancel</button>
             </div>
         </div>
