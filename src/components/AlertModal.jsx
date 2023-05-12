@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './styles/alertModal.css'
+import './styles/AlertModal.css'
 
 
 const AlertModal = ({deleteUserById,
