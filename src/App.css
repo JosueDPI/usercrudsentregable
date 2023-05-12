@@ -22,7 +22,7 @@
     z-index: 1;
 }
 
-.app__title-formOpOk{
+.app__title-formSucces{
     position: absolute;
     left: 50%;
     top:-44px; 
@@ -33,7 +33,7 @@
     margin-left: -90px;
     text-align: center;
     font-weight: 600;
-    font-size: 1.2em;
+    font-size: 0.6em;
     color: white;
     border-radius: 0 0 10px 10px;
     transition: top 300ms;
@@ -41,7 +41,7 @@
     
 }
 
-.app__title-formOpOkView{
+.app__title-formSuccesView{
     top: 0px;
 
 }

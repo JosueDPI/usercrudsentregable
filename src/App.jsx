@@ -34,7 +34,7 @@ function App() {
     <div className="app">
       <header className='app__header'>
         <h1 className='app__title'>Users</h1>
-        <div className={`app__title-formOpOk ${crudOpOk? 'app__title-formOpOkView' : '' }`}>Operation successfully</div>
+        <div className={`app__title-formSucces ${crudOpOk? 'app__title-formSuccesView' : '' }`}>Operation successfully</div>
         <button onClick={handleOpenForm} className="app__btn">Create new</button>
       </header>
       <AlertModal
